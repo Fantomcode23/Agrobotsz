@@ -2,6 +2,7 @@ from keras.layers import Input, Dense, ActivityRegularization
 from keras.models import Sequential
 from archimedes import Archimedes
 CLASSES = ['Normal', 'OSCC']
+
 EMBEDDING_DIM = 1024
 def get_encoder(in_dim):
     print('[INFO] Building Encoder')
