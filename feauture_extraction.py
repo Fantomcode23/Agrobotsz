@@ -13,8 +13,8 @@ import tqdm
 from keras.applications.nasnet import NASNetLarge, preprocess_input
 from keras.models import Model
 from keras_preprocessing.image import load_img, img_to_array
+from utils import CLASSES
 
-CLASSES = ['Normal', 'OSCC']
 SHAPE = (224, 224, 3)
 
 
