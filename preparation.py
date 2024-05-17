@@ -2,8 +2,8 @@ import glob
 import os
 import cv2
 import tqdm
+from utils import CLASSES
 
-CLASSES = ['Normal', 'OSCC']
 DATA_DIR = 'Data/source'
 SETS = ['First Set', 'Second Set']
 SAVE_DIR = 'Data/data'
