@@ -2,7 +2,8 @@ import glob
 import os.path
 import cv2
 import tqdm
-CLASSES = ['Normal', 'OSCC']
+from utils import CLASSES
+
 
 def median_filter(img):
     return cv2.medianBlur(img, 5)
