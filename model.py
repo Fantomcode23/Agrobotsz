@@ -1,7 +1,8 @@
 from keras.layers import Input, Dense, ActivityRegularization
 from keras.models import Sequential
 from archimedes import Archimedes
-CLASSES = ['Normal', 'OSCC']
+from utils import CLASSES
+
 
 EMBEDDING_DIM = 1024
 def get_encoder(in_dim):
